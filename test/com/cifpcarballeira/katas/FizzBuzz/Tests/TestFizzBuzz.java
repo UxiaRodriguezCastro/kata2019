@@ -22,4 +22,13 @@ public class TestFizzBuzz {
      
      
      }
+ @Test
+     public void tes2devuelve2() {
+     FizzBuzz fb= new FizzBuzz();
+     String result= fb.getFizzBuzz(2);
+     assertEquals ("2",result);
+     
+     
+     }
+
 }
