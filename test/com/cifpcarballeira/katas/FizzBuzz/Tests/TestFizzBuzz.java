@@ -39,7 +39,7 @@ public class TestFizzBuzz {
      
      }
                @Test
-     public void test3devuelveBuzz() {
+     public void test5devuelveBuzz() {
      FizzBuzz fb= new FizzBuzz();
      String result= fb.getFizzBuzz(5);
      assertEquals ("Buzz",result);
@@ -54,5 +54,10 @@ public class TestFizzBuzz {
      
      
      }
+          public void testcontiene3() {
+     FizzBuzz fb= new FizzBuzz();
+     String result= fb.getFizzBuzz(13);
+     assertEquals ("Fizz",result);
 
+}
 }
