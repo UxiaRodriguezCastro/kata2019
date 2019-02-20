@@ -46,5 +46,13 @@ public class TestFizzBuzz {
      
      
      }
+                    @Test
+     public void testmultiplo3y5devuelveFixxBuzz() {
+     FizzBuzz fb= new FizzBuzz();
+     String result= fb.getFizzBuzz(15);
+     assertEquals ("FizzBuzz",result);
+     
+     
+     }
 
 }
